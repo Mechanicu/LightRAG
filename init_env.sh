@@ -17,3 +17,10 @@ export EMBEDDING_MODEL=${!_EMBEDDING_MODEL}
 
 ## lightrag http server api
 export RAG_DIR=../rag_dir
+
+## env for kconfiglib
+export srctree=/home/c/origin-src620/
+export CC=gcc
+export LD=ld
+export ARCH=x86
+export SRCARCH=x86
